@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "microservice-produits")
+//@FeignClient(name = "microservice-produits")
+@FeignClient(name = "gateway-server")
 @RibbonClient(name = "microservice-produits")
 
 public interface MicroserviceProduitsProxy
