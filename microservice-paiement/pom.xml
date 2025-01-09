@@ -60,6 +60,12 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
+		<!-- Ajout de la dépendance spring-cloud-starter-bootstrap -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+		</dependency>
+
 		<!-- Dépendances pour les tests -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -100,4 +106,3 @@
 		</repository>
 	</repositories>
 </project>
-
