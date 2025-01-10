@@ -11,7 +11,7 @@ import java.util.List;
 
 //@FeignClient(name = "microservice-produits")
 @FeignClient(name = "gateway-server")
-@RibbonClient(name = "microservice-produits")
+//@RibbonClient(name = "microservice-produits")
 
 public interface MicroserviceProduitsProxy
 {
