@@ -22,7 +22,7 @@ Les serveurs jouent un rôle crucial dans la coordination des microservices. Ils
 - **API Gateway (Spring Cloud Gateway)** 
 - **Serveur de traçage (Zipkin)**
 
-- ## Architecture
+## Architecture
 
 - **Feign**  
   Simplifie la communication entre les microservices en générant automatiquement des clients REST.  
